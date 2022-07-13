@@ -6,5 +6,3 @@ const date = new Date();
 let datename = day [date.getDate()];
 let name = month[date.getMonth()];
 document.getElementById("current_date").innerHTML = 'ယနေ့သည်' + ' ' + name + 'လ' + ' ' + datename + ' ' + 'ရက်ဖြစ်ပါသည်';
-
-
